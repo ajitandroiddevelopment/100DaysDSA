@@ -15,6 +15,8 @@ public class SubarrayWithGivenSum {
             }
             // check for the match(target is equal to sum or not
             if (sum==target) return true;
+
+            right++;
         }
         return false;
     }
